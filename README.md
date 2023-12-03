@@ -10,6 +10,8 @@ Syntax-Perfect is a programming language designed for simplicity and readability
 
 This is a constantly developing project. When there are differences in the examples, let us assume that the latest updated one is the correct one.
 
+A good syntax should be verbose enough to make it easy to read, but never verbose for the sake of it (such as having a : at then end of a control flow statement, when the keyword (for example "if") combined with the line break implies it).
+
 End of non-MLLM-generated text ~
 
 ## Table of Contents
