@@ -117,13 +117,13 @@ int current_microsecond = datetime.datetime.now().microsecond
 Here are some examples to illustrate Syntax-Perfect usage:
 
 ```syntax
-int main_variable = 10
+pint main_variable = 10
 
-int PI = 3.14
+float PI = 3.14
 
 fn str greet(str name)
     return "Hello, " + name + "!"
 
-print(greet("World"))
+print(greet("Kitty"))
 ```
 
