@@ -1,4 +1,4 @@
-## Work in Progress. See Description and *Don't Take It Too Seriously* - The Latter Is Very Important.
+## Work in Progress. These are my opinions on what would make a perfect programming syntax - it is very important that you *don't take it too seriously*.
 
 # Syntax-Perfect Language Documentation
 
@@ -85,12 +85,18 @@ while condition
 Syntax-Perfect supports the following data types:
 
 - `int`: Integer type
+- `pint`: Positive Integer type, an integer that can not be less than 0
+- `float`: String type
 - `bool`: Boolean type
+- `char`: Character type
 - `str`: String type
+- `list`: List type. There are no tuples, but all datatypes can be CONSTANTS.
+- `dict`: Dictionary type
+- `set`: Set type
 
 ## Standard Library
 
-Syntax-Perfect includes a standard library with common functionalities, such as date and time operations.
+Syntax-Perfect will include a standard library with common functionalities, such as date and time operations.
 
 **Example:**
 
@@ -115,4 +121,3 @@ fn str greet(str name)
 print(greet("World"))
 ```
 
-Feel free to explore more advanced features and capabilities by experimenting with Syntax-Perfect. Happy coding!
