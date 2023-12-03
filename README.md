@@ -55,7 +55,7 @@ bool IS_DEBUG_MODE = true
 Functions in Syntax-Perfect are defined as follows:
 
 ```syntax
-type return_type function_name(type parameter1, type parameter2, ...)
+fn type return_type function_name(type parameter1, type parameter2, ...)
 ```
 
 **Example:**
