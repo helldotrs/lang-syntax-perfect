@@ -1,4 +1,4 @@
-str username as 'Kitty'
+str username = 'Kitty'
 
 fn str hello_user(input_var)
     if input_var
