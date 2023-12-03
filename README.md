@@ -6,7 +6,11 @@
 
 Syntax-Perfect is a programming language designed for simplicity and readability. It aims to provide a clean and straightforward syntax for efficient code development. This documentation outlines the key features, syntax rules, and conventions of the Syntax-Perfect language.
 
-~ Non-MLLM-generated text: MLLM has been used to generate this readme, based on code examples, as well as correcting its errors when generating Syntax-Perfect (SP) code. When I first glanced at Python code, I feel in love; the allure was the indentation; it did not only expect indentation to be done correctly but required it, to the extent that elements, and hence the possibility, that allow for (in this aspect) sloppy code (curly brackets{} for code indentation) have been removed. however, it is not perfect. In striving towards perfection, we should never accept "because this is the way it has been done" as an argument for anything, the same way we should not a Qwerty layout on our keyboard, the same way Guido van Rossum faced push back on indentation when he designed Python. End of non-MLLM-generated text ~
+~ Non-MLLM-generated text: MLLM has been used to generate this readme, based on code examples, as well as correcting its errors when generating Syntax-Perfect (SP) code. When I first glanced at Python code, I fell in love; the allure was the indentation; it did not only expect indentation to be done correctly but required it, to the extent that elements, and hence the possibility, that allow for (in this aspect) sloppy code (curly brackets{} for code indentation) have been removed. However, it is not perfect. In striving towards perfection, we should never accept "because this is the way it has been done" as an argument for anything, the same way we should not have a Qwerty layout on our keyboard, the same way Guido van Rossum faced pushback on indentation when he designed Python. 
+
+This is a constantly developing project. When there are differences in the examples, let us assume that the latest updated one is the correct one.
+
+End of non-MLLM-generated text ~
 
 ## Table of Contents
 
