@@ -8,11 +8,11 @@ hence if when order matters we should stick strictly to p (pharenthis), and thro
 
 int a as 0
 
-a = 1 + 1 - 1    // correct as:
-a = 1 - 1 + 1    // is the same thing
-a = -1 + 1       //correct but could be confusing, possibly anyhting that begins with - should be in (), like:
-a = (-1) + 1     //or:
-a = (-1 + 1)
-a = 1 + 2 * 3    //INCORRECT, throw error, as there is room for confusion, write instead:
-a = 1 + ( * 3)   //or even better:
-a = (3 * 2) + 1
+a as 1 + 1 - 1    // correct as:
+a as 1 - 1 + 1    // is the same thing
+a as -1 + 1       //correct but could be confusing, possibly anyhting that begins with - should be in (), like:
+a as (-1) + 1     //or:
+a as (-1 + 1)
+a as 1 + 2 * 3    //INCORRECT, throw error, as there is room for confusion, write instead:
+a as 1 + ( * 3)   //or even better:
+a as (3 * 2) + 1
