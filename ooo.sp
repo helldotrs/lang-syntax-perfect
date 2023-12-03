@@ -6,7 +6,7 @@ flaw2: some people use left-to-right (ltr) which creates the *posibility* for co
 hence if when order matters we should stick strictly to p (pharenthis), and throw a syntax error when not adhered to
 */
 
-int a = 0
+int a as 0
 
 a = 1 + 1 - 1    // correct as:
 a = 1 - 1 + 1    // is the same thing
