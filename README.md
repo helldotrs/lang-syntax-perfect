@@ -124,8 +124,8 @@ pint main_variable = 10
 float PI = 3.14
 
 fn str greet(str name)
-    return "Hello, " + name + "!"
+    return 'Hello, ' + name + '!'
 
-print(greet("Kitty"))
+print(greet('Kitty'))
 ```
 
