@@ -101,7 +101,7 @@ Syntax-Perfect supports the following data types:
 - `bool`: Boolean type
 - `char`: Character type
 - `str`: String type
-- `list`: List type. There are no tuples, but all datatypes can be CONSTANTS.
+- `list`: List type. There are no tuples, but all datatypes, including lists, can be CONSTANTS.
 - `dict`: Dictionary type
 - `set`: Set type
 
@@ -127,7 +127,7 @@ pint main_variable = 10
 float PI = 3.14
 
 fn str greet(str name)
-    return 'Hello, ' + name + '!'
+    'Hello, ' + name + '!'
 
 print(greet('Kitty'))
 ```
