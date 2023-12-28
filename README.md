@@ -122,7 +122,8 @@ int current_microsecond = datetime.datetime.now().microsecond
 Here are some examples to illustrate Syntax-Perfect usage:
 
 ```syntax
-pint main_variable = 10
+pint main_variable = 10 
+main_variable += 1 /* to consider: should a non modified non constant throw a syntax error? */
 
 float PI = 3.14
 
