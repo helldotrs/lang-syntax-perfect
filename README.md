@@ -64,8 +64,11 @@ fn type return_type function_name(type parameter1, type parameter2, ...)
 
 ```syntax
 fn int add(int a, int b)
-    return a + b
+    a + b 
 ```
+
+notice that there is no return keyword as return it is implied.
+
 
 ## Control Flow
 
