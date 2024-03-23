@@ -57,8 +57,9 @@ bool IS_DEBUG_MODE = true
 Functions in Syntax-Perfect are defined as follows:
 
 ```syntax
-fn type return_type function_name(type parameter1, type parameter2, ...)
+fn output-type return_type function_name(type parameter1, type parameter2, ...)
 ```
+Output type is "void" for functions without a return value.
 
 **Example:**
 
@@ -67,7 +68,7 @@ fn int add(int a, int b)
     a + b 
 ```
 
-notice that there is no return keyword as return it is implied.
+Notice that there is no return keyword as return it is implied.
 
 
 ## Control Flow
@@ -123,7 +124,7 @@ Here are some examples to illustrate Syntax-Perfect usage:
 
 ```syntax
 pint main_variable = 10 
-main_variable += 1 /* to consider: should a non modified non constant throw a syntax error? */
+main_variable += 1 /* to consider: should a non-modified non-constant throw a syntax error? */
 
 float PI = 3.14
 
