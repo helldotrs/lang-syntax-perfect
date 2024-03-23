@@ -38,6 +38,8 @@ type variable_name = value
 int my_variable = 42
 ```
 
+Note that naming variables is always done with snake_case, using mixed case will result in a syntax error.
+
 ## Constants
 
 Constants in Syntax-Perfect are declared using capital letters:
@@ -51,6 +53,7 @@ type CONSTANT_NAME = value
 ```syntax
 bool IS_DEBUG_MODE = true
 ```
+Note that naming variables is always done with UPPER_SNAKE_CASE, using mixed case will result in a syntax error.
 
 ## Functions
 
