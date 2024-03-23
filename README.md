@@ -57,9 +57,9 @@ bool IS_DEBUG_MODE = true
 Functions in Syntax-Perfect are defined as follows:
 
 ```syntax
-fn output-type return_type function_name(type parameter1, type parameter2, ...)
+fn return_type function_name(type parameter1, type parameter2, ...)
 ```
-Output type is "void" for functions without a return value.
+Return type is "void" for functions without a return value.
 
 **Example:**
 
