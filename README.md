@@ -101,7 +101,7 @@ Syntax-Perfect supports the following data types:
 
 - `int`: Integer type
 - `pint`: Positive Integer type, an integer that can not be less than 0
-- `float`: String type
+- `float`: Floating point type
 - `bool`: Boolean type
 - `char`: Character type
 - `str`: String type
