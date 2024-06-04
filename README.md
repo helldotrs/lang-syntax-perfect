@@ -100,7 +100,7 @@ while condition
 Syntax-Perfect supports the following data types:
 
 - `int`: Integer type
-- `pint`: Positive Integer type, an integer that can not be less than 0
+- `uint`: Positive Integer type, an integer that can not be less than 0
 - `float`: Floating point type
 - `bool`: Boolean type
 - `char`: Character type
@@ -108,6 +108,7 @@ Syntax-Perfect supports the following data types:
 - `list`: List type. There are no tuples, but all datatypes, including lists, can be CONSTANTS.
 - `dict`: Dictionary type
 - `set`: Set type
+- `byte`: Byte type
 
 ## Standard Library
 
